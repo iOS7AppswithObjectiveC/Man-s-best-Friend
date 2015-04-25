@@ -21,6 +21,7 @@
 		2C67BBA31AEB432D003F21EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C67BB851AEB432D003F21EB /* UIKit.framework */; };
 		2C67BBAB1AEB432D003F21EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C67BBA91AEB432D003F21EB /* InfoPlist.strings */; };
 		2C67BBAD1AEB432D003F21EB /* Man_s_best_FriendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C67BBAC1AEB432D003F21EB /* Man_s_best_FriendTests.m */; };
+		2C67BBB81AEB44FD003F21EB /* MBFDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C67BBB71AEB44FD003F21EB /* MBFDog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		2C67BBA81AEB432D003F21EB /* Man's best FriendTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Man's best FriendTests-Info.plist"; sourceTree = "<group>"; };
 		2C67BBAA1AEB432D003F21EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2C67BBAC1AEB432D003F21EB /* Man_s_best_FriendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man_s_best_FriendTests.m; sourceTree = "<group>"; };
+		2C67BBB61AEB44FD003F21EB /* MBFDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBFDog.h; path = ../MBFDog.h; sourceTree = "<group>"; };
+		2C67BBB71AEB44FD003F21EB /* MBFDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBFDog.m; path = ../MBFDog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				2C67BB931AEB432D003F21EB /* Main.storyboard */,
 				2C67BB961AEB432D003F21EB /* MBFViewController.h */,
 				2C67BB971AEB432D003F21EB /* MBFViewController.m */,
+				2C67BBB61AEB44FD003F21EB /* MBFDog.h */,
+				2C67BBB71AEB44FD003F21EB /* MBFDog.m */,
 				2C67BB991AEB432D003F21EB /* Images.xcassets */,
 				2C67BB881AEB432D003F21EB /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				2C67BB921AEB432D003F21EB /* MBFAppDelegate.m in Sources */,
 				2C67BB981AEB432D003F21EB /* MBFViewController.m in Sources */,
+				2C67BBB81AEB44FD003F21EB /* MBFDog.m in Sources */,
 				2C67BB8E1AEB432D003F21EB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

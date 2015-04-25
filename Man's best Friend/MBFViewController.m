@@ -7,6 +7,7 @@
 //
 
 #import "MBFViewController.h"
+#import "MBFDog.h"
 
 @interface MBFViewController ()
 
@@ -17,7 +18,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	MBFDog *myDog = [[MBFDog alloc] init];
+    myDog.name = @"Molly";
+    myDog.breed = @"Lab";
+    myDog.age = 5;
+    
 }
 
 - (void)didReceiveMemoryWarning
